@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dialog>
+    <NPC id="0">
+        <name >Storyteller</name>
+        <line0>You are a knight on a quest for gold.</line0>
+        <line1>You are faced with a fork in the road.</line1>
+        <line2>
+          <question>Which way do you go?</question>
+          <answer id="0">1. The right!</answer>
+          <answer id="1">2. The left...?</answer>
+          <tag id="0">A</tag>
+          <tag id="1">B</tag>
+        </line2>
+
+        <line3A>You walk to the right.</line3A>
+        <line4A>In the distance, you hear a weird sound.</line4A>
+
+        <line3B>You decide to take the left path.</line3B>
+        <line4B>In the distance you see a wizard.</line4B>
+    </NPC>
+
+    <NPC id="1">
+        <nameA>Storyteller</nameA>
+        <spriteA>chest</spriteA>
+        <line0A>You see a chest!</line0A>
+        <line1A>As you try to get closer, you hear a laugh.</line1A>
+        <line2A>It's a trap!</line2A>
+    </NPC>
+
+    <NPC id="2">
+        <nameA>Dark Evil Slime</nameA>
+        <spriteA>slime</spriteA>
+        <line0A>You have fallen for my trap!!!</line0A>
+        <line1A>Now i will destroy you!</line1A>
+    </NPC>
+
+    <NPC id="3">
+        <nameA>Storyteller</nameA>
+        <spriteA>slime</spriteA>
+        <line0A>You are too weak to kill the slime.</line0A>
+        <line1A>BAD ENDING 1</line1A>
+    </NPC>
+
+    <NPC id="1">
+        <nameB>Wizard</nameB>
+        <spriteB>wizard</spriteB>
+        <line0B>Hello knight!</line0B>
+        <line1B>To pass, solve this riddle!</line1B>
+        <line2B>
+          <question>What did i eat for breakfast this morning?</question>
+          <answer id="0">1. Cornflakes</answer>
+          <answer id="1">2. Toasted tea cake</answer>
+          <tag id="0">L</tag>
+          <tag id="1">R</tag>
+        </line2B>
+
+        <line3BL>Nah, you're wrong.</line3BL>
+
+        <line3BR>How did you know!</line3BR>
+        <line4BR>You may pass my dude.</line4BR>
+    </NPC>
+
+    <NPC id="2">
+        <nameBR>The knight</nameBR>
+        <spriteBR>knight</spriteBR>
+        <line0BR>Actually...</line0BR>
+        <line1BR>The real treasure was in my heart all along.</line1BR>
+        <line2BR>GOOD ENDING</line2BR>
+    </NPC>
+
+    <NPC id="2">
+        <nameBL>Death Slime</nameBL>
+        <spriteBL>slime</spriteBL>
+        <line0BL>Also i'm actually a slime.</line0BL>
+        <line1BL>You will not be able to kill me.</line1BL>
+        <line2BL>BAD ENDING 2</line2BL>
+    </NPC>
+</dialog>
