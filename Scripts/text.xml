@@ -2,7 +2,7 @@
 <dialog>
     <NPC id="0">
         <name >Storyteller</name>
-        <line0>You are a knight on a quest for gold.</line0>
+        <line0>You are a knight on a quest for treasure.</line0>
         <line1>You are faced with a fork in the road.</line1>
         <line2>
           <question>Which way do you go?</question>
@@ -17,6 +17,7 @@
 
         <line3B>You decide to take the left path.</line3B>
         <line4B>In the distance you see a wizard.</line4B>
+        <line5B>The wizard approaches...</line5B>
     </NPC>
 
     <NPC id="1">

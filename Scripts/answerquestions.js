@@ -9,8 +9,10 @@ var questionAnswerFunctions =
       for (var i = 0; i < questionLimit; i++)
       {
         eval("ansText"+i).setText("");
+        //Empty the question texts
       }
       textFunctions.advanceText();
+      //Scroll the text further
     }
   }
 }

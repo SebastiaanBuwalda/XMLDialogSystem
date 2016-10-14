@@ -2,6 +2,7 @@ var textResetFunction =
 {
   resetText:function()
   {
+    //Just sets everything back to the begin of the game.
     dialogImage.loadTexture(null);
     textPoint = 0;
     IDPoint = 0;

@@ -22,7 +22,9 @@ function preload() {
       game.load.image('slime', 'Sprites/slimeImage.png');
       game.load.image('chest', 'Sprites/chestImage.png');
       game.load.image('knight', 'Sprites/knightImage.png');
+        //load in the sprites
       game.stage.backgroundColor = "#2c3e50";
+
 }
 
 function create() {
@@ -37,7 +39,7 @@ function create() {
     text = game.add.text(100, 550, xml.querySelector('[id="'+IDPoint+'"] name').textContent+': '+xml.querySelector('[id="0"] line' + textPoint).textContent, style);
     ansText0 = game.add.text(100, 400, "", style, answerTextGroup);
     ansText1 = game.add.text(100, 450, "", style, answerTextGroup);
-    ansText2 = game.add.text(100, 500, "", style, answerTextGroup);
+    //Add the texts to the canvas
 }
 
 function update() {
@@ -49,6 +51,7 @@ function update() {
     }
     if (game.input.keyboard.justReleased(Phaser.Keyboard.SPACEBAR)) {
         keyReset = false;
+        //Because of keyReset the dialogue won't advance when the player just holds down the spacebar
     }
     if((!game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR))&&waitForQuestionAnswer)
     {
@@ -56,10 +59,11 @@ function update() {
       if(!game.input.keyboard.isDown(Phaser.Keyboard.ONE))
       {
         questionAnswerFunctions.questionAnswer(Phaser.Keyboard.TWO,1);
+        //Make sure you can't mash two buttons at once and break the game
       }
     }
 }
 function render()
 {
-
+  //unused
 }
