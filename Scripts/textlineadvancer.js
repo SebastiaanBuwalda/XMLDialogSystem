@@ -1,6 +1,6 @@
 var textFunctions =
 {
-advanceText: function()
+textNextLine: function()
 {
   if(xml.querySelector('[id="'+IDPoint+'"] line' + (textPoint+1)+pathID)!=null)
   {

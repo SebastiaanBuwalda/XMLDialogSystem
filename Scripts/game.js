@@ -45,7 +45,7 @@ update: function() {
 
     if (game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR) && !keyReset && !waitForQuestionAnswer)
     {
-        textFunctions.advanceText();
+        textFunctions.textNextLine();
         keyReset = true;
     }
     if (game.input.keyboard.justReleased(Phaser.Keyboard.SPACEBAR)) {
